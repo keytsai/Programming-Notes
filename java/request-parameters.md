@@ -5,8 +5,8 @@
 ## （請求參數）的傳遞方式
 
 > 必考！
->
-> ### Request Parameters（請求參數）與請求方法 GET, POST
+
+### Request Parameters（請求參數）與請求方法 GET, POST
 
 #### 參數的傳遞方式
 
