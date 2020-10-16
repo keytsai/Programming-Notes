@@ -4,6 +4,7 @@
 
 ## Java
 
+* [Request Parameters](java/request-parameters.md)
 * [JavaBeans](java/javabeans.md)
 * [Interface](java/interface.md)
 * [Array](java/array.md)
