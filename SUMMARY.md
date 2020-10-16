@@ -4,6 +4,7 @@
 
 ## Java
 
+* [JavaBeans](java/javabeans.md)
 * [Interface](java/interface.md)
 * [Array](java/array.md)
 
