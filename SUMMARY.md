@@ -2,13 +2,12 @@
 
 * [簡介](README.md)
 
-## Java
+## Back-end
 
-* [Request Parameters](java/request-parameters.md)
-* [Untitled](java/untitled.md)
-* [JavaBeans](java/javabeans.md)
-* [Interface](java/interface.md)
-* [Array](java/array.md)
+* [Java](back-end/java/README.md)
+  * [Servlet Web](back-end/java/servlet-web/README.md)
+    * [JavaBeans](back-end/java/servlet-web/javabeans.md)
+    * [Request Parameters](back-end/java/servlet-web/request-parameters.md)
 
 ---
 
