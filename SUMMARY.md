@@ -13,7 +13,7 @@
 
 ## Front-end
 
-* [HTML](Front-end/HTML/README.md)
-  * [form](Front-end/HTML/form.md)
+* [HTML](Front-end/HTML/README.MD)
+  * [form](Front-end/HTML/form.MD)
 * [CSS](Front-end/CSS/README.MD)
 
