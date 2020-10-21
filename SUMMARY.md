@@ -13,6 +13,6 @@
 
 ## Front-endTEST <a id="front-endtestd"></a>
 
-* [HTMLTEST](front-endtestd/htmltest.md)
-* [formTEST](front-endtestd/formtest.md)
+* [HTMLTEST](front-endtestd/htmltest/README.md)
+  * [formTEST](front-endtestd/htmltest/formtest.md)
 
