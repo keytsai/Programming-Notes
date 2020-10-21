@@ -1,6 +1,6 @@
 # HTML
 
-## 網頁欄位架、構表格、form表單等的快速建立方式範例(Emmet套件功能)
+## 網頁欄位架構、表格、form表單等的快速建立方式範例(Emmet套件功能)
 
 - `table>(tr>td*3)*2`
 - `form>fieldset>legend{contact US}+(p>label+input)*6`
