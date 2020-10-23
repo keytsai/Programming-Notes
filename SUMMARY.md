@@ -13,6 +13,7 @@
     * [Action Node](back-end/developing-solutions/agile/ActionNode.md)
     * [Control Node](back-end/developing-solutions/agile/ControlNode&Flow.md)
     * [Object Node](back-end/developing-solutions/agile/ObjectNode.md)
+    * [Use Case](back-end/developing-solutions/agile/UseCase.md)
 
 ## Front-end
 
