@@ -1,6 +1,6 @@
-# form表單範例
+# form
 
-```html
+```markup
 <form action="">
     <fieldset>
         <legend>contact US</legend>
@@ -22,40 +22,41 @@
 </form>
 ```
 
-![form](../images/2020-10-20-12-50-55.png)
+![form](../../.gitbook/assets/2020-10-20-12-50-55%20%281%29.png)
 
 ## 說明
 
-- 本範例表單輸入此行快速產生架構：`form>fieldset>legend{contact US}+(p>label+input)*6`
-- 元素說明：
+* 本範例表單輸入此行快速產生架構：`form>fieldset>legend{contact US}+(p>label+input)*6`
+* 元素說明：
 
-|元素|說明|
-|:---:|:---:|
-|fieldset|用來對form表單中的控制元件做分組|
-|legend|作為表單的標題，位於fieldset下的第一個|
-|datalist|下拉表單，與list屬性配合|
+| 元素 | 說明 |
+| :---: | :---: |
+| fieldset | 用來對form表單中的控制元件做分組 |
+| legend | 作為表單的標題，位於fieldset下的第一個 |
+| datalist | 下拉表單，與list屬性配合 |
 
-- 屬性說明：
+* 屬性說明：
 
-|屬性|說明|
-|:---:|:---:|
-|required|使欄位不得為空白|
-|placeholder|讓欄位空白時顯示文字|
-|value|設定初始值|
-|min|設定最小值|
-|max|設定最大值|
-|step|設定每次增減值的單位數|
-|list|下拉表單，與datalist標籤配合|
-|type|input元素的類型，詳下表格|
+| 屬性 | 說明 |
+| :---: | :---: |
+| required | 使欄位不得為空白 |
+| placeholder | 讓欄位空白時顯示文字 |
+| value | 設定初始值 |
+| min | 設定最小值 |
+| max | 設定最大值 |
+| step | 設定每次增減值的單位數 |
+| list | 下拉表單，與datalist標籤配合 |
+| type | input元素的類型，詳下表格 |
 
-- 類型(type)說明：
+* 類型\(type\)說明：
 
-|類型|說明|
-|:---:|:---:|
-|text|字元|
-|email|Email|
-|tel|號碼|
-|url|網址|
-|number|數量|
-|date|日期（會有小月曆）|
-|range|可拉的範圍桿|
+| 類型 | 說明 |
+| :---: | :---: |
+| text | 字元 |
+| email | Email |
+| tel | 號碼 |
+| url | 網址 |
+| number | 數量 |
+| date | 日期（會有小月曆） |
+| range | 可拉的範圍桿 |
+

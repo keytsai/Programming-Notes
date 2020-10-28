@@ -1,21 +1,21 @@
 # HTML
 
-## 網頁欄位架構、表格、form表單等的快速建立方式範例(Emmet套件功能)
+## 網頁欄位架構、表格、form表單等的快速建立方式範例\(Emmet套件功能\)
 
-- `table>(tr>td*3)*2`
-- `form>fieldset>legend{contact US}+(p>label+input)*6`
-- `header>h1+small^nav>a*4^video+#left>(h2+p*3)*4^#right>img*3+form^footer`
-- `div>h1{NEWS}^div+div`
+* `table>(tr>td*3)*2`
+* `form>fieldset>legend{contact US}+(p>label+input)*6`
+* `header>h1+small^nav>a*4^video+#left>(h2+p*3)*4^#right>img*3+form^footer`
+* `div>h1{NEWS}^div+div`
 
 ## HTML新標籤
 
 ### 頁面架構標籤
 
-![html5NewTag](../images/2020-10-20-10-28-31.png)
+![html5NewTag](../../.gitbook/assets/2020-10-20-10-28-31%20%281%29.png)
 
 #### 網頁範例
 
-```html
+```markup
 <!DOCTYPE html>
 <html lang="zh-TW">
 
@@ -27,8 +27,8 @@
 
 <body>
     <!--
-	header>h1+small^nav>a*4^video+#left>(h2+p*3)*4^#right>img*3+form^footer
-	-->
+    header>h1+small^nav>a*4^video+#left>(h2+p*3)*4^#right>img*3+form^footer
+    -->
     <header>
         <h1>親近自然 擁抱美麗</h1>
         <small>讓我們迎向大自然 充滿笑聲迴盪在每一天</small>
@@ -87,14 +87,14 @@
 </html>
 ```
 
-![htmlEx](../images/2020-10-20-14-36-12.png)
+![htmlEx](../../.gitbook/assets/2020-10-20-14-36-12%20%281%29.png)
 
 ### figure, figcaption
 
-- figure:獨立內容區段描述
-- figcaption:獨立內容區段描述標題說明
+* figure:獨立內容區段描述
+* figcaption:獨立內容區段描述標題說明
 
-```html
+```markup
 <figure style="float:left;">
     <img src="v1.jpg" alt="">
     <figcaption>稻田</figcaption>
@@ -103,10 +103,11 @@
 
 ## 影音標籤
 
-```html
+```markup
 <video autoplay loop controls muted poster="c1.jpg">
     <source src="movie.mp4">
     <source src="movie2.mp4">
     <source src="movie.mp4">
 </video>
 ```
+

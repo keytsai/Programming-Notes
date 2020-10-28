@@ -8,16 +8,17 @@
   * [Servlet Web](back-end/java/servlet-web/README.md)
     * [JavaBeans](back-end/java/servlet-web/javabeans.md)
     * [Request Parameters](back-end/java/servlet-web/request-parameters.md)
-    * [Servlet Life Cycle](back-end/java/servlet-web/ServletLifeCycle.md)
+    * [Servlet Life Cycle](back-end/java/servlet-web/servletlifecycle.md)
 * [Developing Solutions](back-end/developing-solutions/README.md)
-  * [Agile]
-    * [Action Node](back-end/developing-solutions/agile/ActionNode.md)
-    * [Control Node](back-end/developing-solutions/agile/ControlNode&Flow.md)
-    * [Object Node](back-end/developing-solutions/agile/ObjectNode.md)
-    * [Use Case](back-end/developing-solutions/agile/UseCase.md)
+  * [\[Agile\]](back-end/developing-solutions/agile/README.md)
+    * [Action Node](back-end/developing-solutions/agile/actionnode.md)
+    * [Control Node](back-end/developing-solutions/agile/controlnode-and-flow.md)
+    * [Object Node](back-end/developing-solutions/agile/objectnode.md)
+    * [Use Case](back-end/developing-solutions/agile/usecase.md)
 
 ## Front-end
 
-* [HTML](Front-end/HTML/README.MD)
-  * [form](Front-end/HTML/form.MD)
-* [CSS](Front-end/CSS/README.MD)
+* [HTML](front-end/html/README.md)
+  * [form](front-end/html/form.md)
+* [CSS](front-end/css.md)
+
