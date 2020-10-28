@@ -20,7 +20,7 @@
 
 * Initial & Destroy \(協同運作\)
 
-## 生命週期基本概念
+## 生命週期基本概念（測試）
 
 ![servlet life cycle](../../../.gitbook/assets/2020-10-28-10-49-03%20%281%29.png) ![servlet life cycle](../../../.gitbook/assets/2020-10-28-10-52-55%20%282%29.png)
 
@@ -29,7 +29,7 @@
 
   
 
-![](../../../.gitbook/assets/2020-10-28-11-41-03.png)
+![&#x7B2C;&#x4E8C;&#x9801;&#x6E2C;&#x8A66;](../../../.gitbook/assets/2020-10-28-11-41-03.png)
 
 ![](../../../.gitbook/assets/2020-10-28-11-01-03%20%281%29.png)
 
