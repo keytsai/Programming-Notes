@@ -22,11 +22,12 @@
 
 ## 生命週期基本概念
 
-![servlet life cycle](/.gitbook/assets/2020-10-28-10-49-03.png) ![servlet life cycle](/.gitbook/assets/2020-10-28-10-52-55.png)
+![servlet life cycle](../../.gitbook/assets/2020-10-28-10-49-03.png) ![servlet life cycle](../../.gitbook/assets/2020-10-28-10-52-55.png)
 
 * Servlet container: 替我們建立servlet實體，並由其控制呼叫servlet的`init()`, `service()`, `destroy()`等方法，以管理servlet的生命週期
 * 程式設計師：則藉由提供上述方法之實作，予以控制該servlet物件及與該物件相關之resource
 
-![1/2](/.gitbook/assets/2020-10-28-11-01-03.png)
+![1/2](../../.gitbook/assets/2020-10-28-11-01-03.png)
 
-![2/2](/.gitbook/assets/2020-10-28-11-41-03.png)
+![2/2](../../.gitbook/assets/2020-10-28-11-41-03.png)
+

@@ -1,16 +1,16 @@
 # Agile
 
-## 漸增模式(Incremental Model)
+## 漸增模式\(Incremental Model\)
 
-![agile](/.gitbook/assets/2020-10-28-17-12-14.png)
+![agile](../../../.gitbook/assets/2020-10-28-17-12-14.png)
 
-## 敏捷開發(Agile Development)
+## 敏捷開發\(Agile Development\)
 
-![agile](/.gitbook/assets/2020-10-28-17-13-29.png)
+![agile](../../../.gitbook/assets/2020-10-28-17-13-29.png)
 
-## 敏捷宣言(Agile Manifesto)
+## 敏捷宣言\(Agile Manifesto\)
 
-![agile](/.gitbook/assets/2020-10-28-17-14-58.png)
+![agile](../../../.gitbook/assets/2020-10-28-17-14-58.png)
 
 ## 敏捷開發的12個原則
 
@@ -26,3 +26,4 @@
 10. 精簡─或最大化未完成工作量之技藝─是不可或缺的。
 11. 最佳的架構、需求與設計皆來自於能自我組織的團隊。
 12. 團隊定期自省如何更有效率，並據之適當地調整與修正自己的行為。
+
