@@ -27,6 +27,6 @@
 * Servlet container: 替我們建立servlet實體，並由其控制呼叫servlet的`init()`, `service()`, `destroy()`等方法，以管理servlet的生命週期
 * 程式設計師：則藉由提供上述方法之實作，予以控制該servlet物件及與該物件相關之resource
 
-![interface](/.gitbook/assets/2020-10-28-11-01-03.png)
+![1/2](/.gitbook/assets/2020-10-28-11-01-03.png)
 
-![&#x7B2C;&#x4E8C;&#x9801;&#x6E2C;&#x8A66;](/.gitbook/assets/2020-10-28-11-41-03.png)
+![2/2](/.gitbook/assets/2020-10-28-11-41-03.png)
