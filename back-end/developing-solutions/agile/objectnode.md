@@ -6,7 +6,11 @@
 
 > 重要
 
- ![partition](../../../.gitbook/assets/2020-10-23-14-59-56%20%281%29.png) ![partition](../../../.gitbook/assets/2020-10-23-15-01-05%20%281%29.png)
+  
+
+![partition](../../../.gitbook/assets/2020-10-23-15-01-05%20%281%29.png)
+
+![partition](../../../.gitbook/assets/2020-10-23-14-59-56%20%281%29.png)
 
 ![partition](../../../.gitbook/assets/2020-10-23-14-57-20%20%281%29.png)
 
