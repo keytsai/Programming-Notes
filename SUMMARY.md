@@ -8,6 +8,7 @@
   * [Servlet Web](back-end/java/servlet-web/README.md)
     * [JavaBeans](back-end/java/servlet-web/javabeans.md)
     * [Request Parameters](back-end/java/servlet-web/request-parameters.md)
+    * [Servlet Life Cycle](back-end/java/servlet-web/ServletLifeCycle.md)
 * [Developing Solutions](back-end/developing-solutions/README.md)
   * [Agile]
     * [Action Node](back-end/developing-solutions/agile/ActionNode.md)
