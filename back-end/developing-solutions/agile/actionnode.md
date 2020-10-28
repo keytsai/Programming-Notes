@@ -5,8 +5,3 @@
 * Action Node
 * Object Node
 * Control Node
-
-## Action Node
-
-* 名稱包含動詞
-
