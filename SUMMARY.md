@@ -6,6 +6,7 @@
 
 * [Java](back-end/java/README.md)
   * [基礎Java](back-end/java/JavaBase/README.md)
+    * [Array](back-end/java/JavaBase/Array.md)
   * [Servlet Web](back-end/java/servlet-web/README.md)
     * [JavaBeans](back-end/java/servlet-web/javabeans.md)
     * [Request Parameters](back-end/java/servlet-web/request-parameters.md)
