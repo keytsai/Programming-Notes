@@ -19,6 +19,8 @@
     * [Servlet Interface](back-end/java/servlet-web/servletinterface.md)
 * [Developing Solutions](back-end/developing-solutions/README.md)
   * [SOLID設計原則](back-end/developing-solutions/solid-she-ji-yuan-ze.md)
+  * [Design Pattern](back-end/developing-solutions/design-pattern/README.md)
+    * [策略模式](back-end/developing-solutions/design-pattern/ce-lve-mo-shi.md)
   * [UML](back-end/developing-solutions/uml.md)
   * [Agile](back-end/developing-solutions/agile/README.md)
     * [Action Node](back-end/developing-solutions/agile/actionnode.md)
