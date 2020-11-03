@@ -7,6 +7,7 @@
 * [Java](back-end/java/README.md)
   * [JDBC](back-end/java/jdbc.md)
   * [基礎Java](back-end/java/javabase/README.md)
+    * [Variable](back-end/java/javabase/Variable.md)
     * [Array](back-end/java/javabase/array.md)
     * [collections API](back-end/java/javabase/collectionsapi.md)
   * [Servlet Web](back-end/java/servlet-web/README.md)
