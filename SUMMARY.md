@@ -5,6 +5,7 @@
 ## Back-end
 
 * [Java](back-end/java/README.md)
+  * [JDBC](back-end/java/jdbc.md)
   * [基礎Java](back-end/java/javabase/README.md)
     * [Array](back-end/java/javabase/array.md)
     * [collections API](back-end/java/javabase/collectionsapi.md)
