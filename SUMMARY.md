@@ -7,8 +7,8 @@
 * [Java](back-end/java/README.md)
   * [JDBC](back-end/java/jdbc.md)
   * [基礎Java](back-end/java/javabase/README.md)
-    * [Variable](back-end/java/javabase/Variable.md)
-    * [參考型別](back-end/java/javabase/referenceType.md)
+    * [Variable](back-end/java/javabase/variable.md)
+    * [參考型別](back-end/java/javabase/referencetype.md)
     * [Array](back-end/java/javabase/array.md)
     * [collections API](back-end/java/javabase/collectionsapi.md)
   * [Servlet Web](back-end/java/servlet-web/README.md)
@@ -31,6 +31,7 @@
     * [Object Node](back-end/developing-solutions/agile/objectnode.md)
     * [Use Case](back-end/developing-solutions/agile/usecase.md)
     * [User Story](back-end/developing-solutions/agile/userstory.md)
+    * [User Story \(2\)](back-end/developing-solutions/agile/user-story-2.md)
     * [Diagram](back-end/developing-solutions/agile/diagram.md)
 
 ## Front-end
