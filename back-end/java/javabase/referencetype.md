@@ -108,11 +108,11 @@ Stack和Heap歸納如下：
 
 | 方法 | 功能 |
 | :--- | :--- |
-| length\(\) | 取得字串長度 |
-| toUpperCase\(\) / toLowerCase\(\) | 將字串內的字元全部轉換為大寫或小寫 |
-| trim\(\) | 去除字串前後空白 |
-| substring\(\) | 由字串內取出全部字串 |
-| endsWith\(\) | 判斷字串結尾 |
+| `length\(\)` | 取得字串長度 |
+| `toUpperCase\(\)` / `toLowerCase\(\)` | 將字串內的字元全部轉換為大寫或小寫 |
+| `trim\(\)` | 去除字串前後空白 |
+| `substring\(\)` | 由字串內取出全部字串 |
+| `endsWith\(\)` | 判斷字串結尾 |
 
 ### StringBuilder
 
