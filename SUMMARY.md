@@ -20,6 +20,7 @@
     * [Servlet重載入](back-end/java/servlet-web/reloading.md)
     * [Date](back-end/java/servlet-web/date.md)
     * [Servlet Interface](back-end/java/servlet-web/servletinterface.md)
+    * [Session機制](back-end/java/servlet-web/session.md)
 * [Developing Solutions](back-end/developing-solutions/README.md)
   * [SOLID設計原則](back-end/developing-solutions/solid-she-ji-yuan-ze.md)
   * [Design Pattern](back-end/developing-solutions/design-pattern/README.md)
