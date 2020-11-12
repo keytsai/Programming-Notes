@@ -24,3 +24,33 @@ session.setAttribute("loginTime", new Date());
 // 獲得Session屬性
 out.println("登入時間為：" + (Date)session.getAttribute("loginTime"));
 ```
+
+## HttpSession介面之屬性(Attribute)方法
+
+```java
+void session.setAttribute(String name, Object value)
+將指定的物件存入session中
+
+Object session.getAttribute(String name)
+從session中取出物件
+
+void session.removeAttribute(String name)
+從session中移除物件
+
+Enumeration session.getAttributeNames()
+將目前session中的所有屬性名稱以Enumeration型態傳回
+```
+
+## 程式片段(取得session擁有之所有屬性名稱、值)
+
+```java
+Enumeration en = session.getAttributeNames();
+while (en.hasMoreElements()){
+    String name = (String) en.nextElement();
+    out.println(name + ":" + session.getAttribute(name));
+}
+```
+
+## HttpSession介面其他方法
+
+![other method](/.gitbook/assets/2020-11-11-09-36-40.png)
