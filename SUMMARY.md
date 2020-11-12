@@ -10,6 +10,7 @@
     * [Variable](back-end/java/javabase/variable.md)
     * [參考型別](back-end/java/javabase/referencetype.md)
     * [Array](back-end/java/javabase/array.md)
+    * [方法](back-end/java/javabase/Method.md)
     * [collections API](back-end/java/javabase/collectionsapi.md)
   * [Servlet Web](back-end/java/servlet-web/README.md)
     * [JavaBeans](back-end/java/servlet-web/javabeans.md)
