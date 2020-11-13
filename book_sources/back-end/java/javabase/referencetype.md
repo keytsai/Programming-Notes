@@ -88,7 +88,7 @@ Java記憶體分三大區塊：
 3. Heap\(堆積\)
    * 保存參考型別\(reference type\)的變數內容\(instance\)的地方
 
-![JVM&#x8A18;&#x61B6;&#x9AD4;&#x5206;&#x985E;](../../../.gitbook/assets/2020-11-05-22-01-46.png)
+![JVM&#x8A18;&#x61B6;&#x9AD4;&#x5206;&#x985E;](../../../images/2020-11-05-22-01-46.png)
 
 Stack和Heap歸納如下：
 
