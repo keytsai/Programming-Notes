@@ -10,6 +10,7 @@
   * [基礎Java](back-end/java/javabase/README.md)
     * [Variable](back-end/java/javabase/variable.md)
     * [參考型別](back-end/java/javabase/referencetype.md)
+    * [test2](back-end/java/javabase/test2.md)
     * [Array](back-end/java/javabase/array.md)
     * [方法](back-end/java/javabase/Method.md)
     * [collections API](back-end/java/javabase/collectionsapi.md)
