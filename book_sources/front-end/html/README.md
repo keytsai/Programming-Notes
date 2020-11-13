@@ -15,7 +15,7 @@
 
 #### 網頁範例
 
-```markup
+```html
 <!DOCTYPE html>
 <html lang="zh-TW">
 

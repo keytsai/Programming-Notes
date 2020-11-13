@@ -1,6 +1,6 @@
 # form
 
-```markup
+```html
 <form action="">
     <fieldset>
         <legend>contact US</legend>
