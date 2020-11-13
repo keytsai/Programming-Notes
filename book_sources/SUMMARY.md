@@ -28,13 +28,7 @@
     * [策略模式](back-end/developing-solutions/design-pattern/ce-lve-mo-shi.md)
   * [UML](back-end/developing-solutions/uml.md)
   * [Agile](back-end/developing-solutions/agile/README.md)
-    * [Action Node](back-end/developing-solutions/agile/actionnode.md)
-    * [Control Node](back-end/developing-solutions/agile/controlnode-and-flow.md)
-    * [Object Node](back-end/developing-solutions/agile/objectnode.md)
-    * [Use Case](back-end/developing-solutions/agile/usecase.md)
-    * [User Story](back-end/developing-solutions/agile/userstory.md)
-    * [User Story \(2\)](back-end/developing-solutions/agile/user-story-2.md)
-    * [Diagram](back-end/developing-solutions/agile/diagram.md)
+    * [User Story](back-end/developing-solutions/agile/user-story-2.md)
 
 ## Front-end
 

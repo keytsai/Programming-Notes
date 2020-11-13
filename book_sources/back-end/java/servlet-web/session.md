@@ -53,4 +53,4 @@ while (en.hasMoreElements()){
 
 ## HttpSession介面其他方法
 
-![other method](/.gitbook/assets/2020-11-11-09-36-40.png)
+![other method](/book_sources/images/2020-11-11-09-36-40.png)

@@ -22,7 +22,7 @@
 </form>
 ```
 
-![form](../../.gitbook/assets/2020-10-20-12-50-55%20%281%29.png)
+![form](/book_sources/images/2020-10-20-12-50-55%20%281%29.png)
 
 ## 說明
 

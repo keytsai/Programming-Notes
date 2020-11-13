@@ -2,15 +2,15 @@
 
 ## 漸增模式\(Incremental Model\)
 
-![agile](../../../.gitbook/assets/2020-10-28-17-12-14.png)
+![agile](/book_sources/images/2020-10-28-17-12-14.png)
 
 ## 敏捷開發\(Agile Development\)
 
-![agile](../../../.gitbook/assets/2020-10-28-17-13-29.png)
+![agile](/book_sources/images/2020-10-28-17-13-29.png)
 
 ## 敏捷宣言\(Agile Manifesto\)
 
-![agile](../../../.gitbook/assets/2020-10-28-17-14-58.png)
+![agile](/book_sources/images/2020-10-28-17-14-58.png)
 
 ## 敏捷開發的12個原則
 
