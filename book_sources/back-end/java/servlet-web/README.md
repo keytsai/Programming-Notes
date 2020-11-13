@@ -15,7 +15,7 @@
    * 常見錯誤2：servlet-name設置的值不存在
    * 常見錯誤3：servlet-class名稱錯誤
 
-     ![&#x5E38;&#x898B;&#x932F;&#x8AA4;1](/book_sources/images/2020-11-04-08-27-51.png)
+     ![&#x5E38;&#x898B;&#x932F;&#x8AA4;1](/images/2020-11-04-08-27-51.png)
 
 ```java
 package ken.servlet.test;

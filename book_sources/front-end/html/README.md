@@ -11,7 +11,7 @@
 
 ### 頁面架構標籤
 
-![html5NewTag](/book_sources/images/2020-10-20-10-28-31%20%281%29.png)
+![html5NewTag](/images/2020-10-20-10-28-31%20%281%29.png)
 
 #### 網頁範例
 
@@ -87,7 +87,7 @@
 </html>
 ```
 
-![htmlEx](/book_sources/images/2020-10-20-14-36-12%20%281%29.png)
+![htmlEx](/images/2020-10-20-14-36-12%20%281%29.png)
 
 ### figure, figcaption
 

@@ -2,7 +2,7 @@
 
 > 這個是應用程式部屬的描述檔，一定放在web.xml下，簡單來說，這個是用來起始程式的開始點.
 
-![xml1](/book_sources/images/2020-10-21-09-51-25.png)
+![xml1](/images/2020-10-21-09-51-25.png)
 
 ```markup
 <web-app>
