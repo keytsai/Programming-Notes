@@ -3,6 +3,7 @@
 ![Vim](/images/2020-11-14-13-53-12.png)
 
 Example:
+
 ```bash
 #! /usr/bin/bash
 echo "The script name is        ==> ${0}"
