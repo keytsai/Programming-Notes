@@ -6,6 +6,7 @@
 
 * [Tools]
   * [Vim](Tools/vim.md)
+  * [Linux指令](Tools/Terminal.md)
 * [Java](back-end/java/README.md)
   * [JDBC](back-end/java/jdbc.md)
   * [基礎Java](back-end/java/javabase/README.md)
