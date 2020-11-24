@@ -1,5 +1,5 @@
 {
-    "plugins": [  "anchor-navigation-ex", "code", "theme-comscore", "-lunr", "-search", "search-pro", "-sharing" ],
+    "plugins": [  "anchor-navigation-ex", "code", "theme-comscore", "-lunr", "-search", "search-pro", "-sharing", "expandable-chapters", "chapter-fold", "splitter" ],
     "pluginsConfig": {
       "fontSettings": {
         "theme": "night",
