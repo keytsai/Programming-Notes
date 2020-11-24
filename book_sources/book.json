@@ -5,7 +5,8 @@
     "-lunr",
     "-search",
     "search-pro",
-    "-sharing"
+    "-sharing",
+    "ancre-navigation"
   ],
   "pluginsConfig": {
     "fontSettings": {
