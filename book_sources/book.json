@@ -1,20 +1,19 @@
 {
-    "plugins": [  "code", "theme-comscore", "-lunr", "-search", "search-pro", "-sharing" ],
-    "pluginsConfig": {
-      "fontSettings": {
-        "theme": "night",
-        "family": "sans"
-      },
-      "theme-default": {
-        "showLevel": true
-      },
-      
-          "pageTop": {
-              "showLevelIcon": false,
-              "level1Icon": "fa fa-hand-o-right",
-              "level2Icon": "fa fa-hand-o-right",
-              "level3Icon": "fa fa-hand-o-right"
-          }
-      }
+  "plugins": [
+    "code",
+    "theme-comscore",
+    "-lunr",
+    "-search",
+    "search-pro",
+    "-sharing"
+  ],
+  "pluginsConfig": {
+    "fontSettings": {
+      "theme": "night",
+      "family": "sans"
+    },
+    "theme-default": {
+      "showLevel": true
     }
+  }
 }
