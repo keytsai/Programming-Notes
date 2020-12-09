@@ -1,12 +1,14 @@
 {
+  "styles": {
+    "mobi": "./mobile.css"
+}
   "plugins": [
     "code",
     "theme-comscore",
     "-lunr",
     "-search",
     "search-pro",
-    "-sharing",
-    "ancre-navigation"
+    "-sharing"
   ],
   "pluginsConfig": {
     "fontSettings": {
