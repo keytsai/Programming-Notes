@@ -1,7 +1,7 @@
 {
   "styles": {
-    "mobi": "./mobile.css"
-}
+    "mobi": "/mobile.css"
+},
   "plugins": [
     "code",
     "theme-comscore",
