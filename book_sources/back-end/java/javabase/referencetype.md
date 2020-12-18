@@ -33,20 +33,20 @@
 ```java
 // 1. 宣告
 Book myBook;
-// Pen為類別名稱
-// myPen為物件參考變數
+// Book為類別名稱
+// myBook為物件參考變數
 ```
 
 ```java
 // 2. 實體化
 new Book();
-// pen為類別名稱，將使用該類別產生物件實體
+// Book為類別名稱，將使用該類別產生物件實體
 ```
 
 ```java
 // 3. 初始化
 myBook = new Book();
-// 因無法直接碰觸記憶體裡的Pen物件，故使用物件參考myPen來控制
+// 因無法直接碰觸記憶體裡的Book物件，故使用物件參考myBook來控制
 ```
 
 ```java
@@ -128,5 +128,3 @@ Stack和Heap歸納如下：
 | double   | Double        |
 | char     | **Character** |
 | boolean  | Boolean       |
-
-[參考型別的包覆類別](variable.md#基本型別)
