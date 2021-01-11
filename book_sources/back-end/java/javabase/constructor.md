@@ -30,3 +30,20 @@
 - 參考型別物件建立的第二步驟實體化的語法為`new ClassName();`
   - 在new關鍵字後面的類別名稱即為建構子
   - 故所謂實體化，就是使用new關鍵字來呼叫建構子，完成記憶體空間heap裡的實體建立
+- 若未在類別中建立建立建構子，Java會預設一個無參數的建構子，可直接使用
+- 但若已建立過建構子，則Java即不提供預設建構子，此時以下呼叫就會編譯失敗：
+`Book b1 = new Book();`
+- 已建立其他建構子若仍需使用無參數建構子就要自行建立
+- chaining constructors:建構子之間(overloading)若要互相呼叫，需使用「this」關鍵字加上參數
+- [chaining constructors範例](Shirt2.java)
+
+### 各級存取權限比較
+
+|           | 同class | 同package | 不同package但須為子類別 | 不設限 |
+| --------- | :-----: | :-------: | :---------------------: | :----: |
+| private   |    Y    |           |                         |        |
+| default   |    Y    |     Y     |                         |        |
+| protected |    Y    |     Y     |            Y            |        |
+| public    |    Y    |     Y     |            Y            |   Y    |
+
+## 熟悉複寫規則
