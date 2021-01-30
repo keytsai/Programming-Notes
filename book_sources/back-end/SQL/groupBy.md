@@ -1,24 +1,24 @@
 # GROUP BY
 
->群組化表格資料，可以用來搭配群組化函數
+>群組化表格資料，可以用來搭配聚合函數
 
 ## 聚合函數
 
 >可以執行所選取的欄位值的筆數、平均、統計等，以便資料分析
 
-| 聚合函數 | 作用             |
-| -------- | ---------------- |
-| Count    | 求有效數據的數量 |
-| Max      | 求最大值         |
-| Min      | 求最小值         |
-| Avg      | 求平均值         |
-| Sum      | 求總和           |
+| 聚合函數 | 作用               |
+| -------- | ------------------ |
+| Count    | 取得欄位資料筆數   |
+| Max      | 取得欄位資料最大值 |
+| Min      | 取得欄位資料最小值 |
+| Avg      | 取得欄位資料平均值 |
+| Sum      | 取得欄位資料總和   |
 
 ### EX1
 
 ```SQL
 -- SELECT列出來的欄位，除了聚集函數的欄位外，其餘都要列在GROUP BY條件中，否則會不符合閱讀邏輯
--- 如把Author 從group by拿掉就會出錯
+-- 如把 Author 從GROUP BY拿掉就會出錯
 SELECT PUBLISHER_ID, AUTHOR, COUNT(BOOK_NAME) AS BOOK_COUNT
 FROM BOOK
 GROUP BY PUBLISHER_ID, AUTHOR
