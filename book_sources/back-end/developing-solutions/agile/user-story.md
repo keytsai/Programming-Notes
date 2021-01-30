@@ -1,4 +1,4 @@
-# User Story \(2\)
+# User Story
 
 ## 估算故事之單位及方法
 
