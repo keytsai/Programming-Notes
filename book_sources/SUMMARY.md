@@ -10,6 +10,7 @@
     * [參考型別](back-end/java/javabase/referencetype.md)
     * [陣列](back-end/java/javabase/array.md)
     * [方法](back-end/java/javabase/Method.md)
+    * [繼承](back-end/java/javabase/OOP/README.md)
     * [封裝及建構子](back-end/java/javabase/constructor.md)
     * [collections API](back-end/java/javabase/collectionsapi.md)
   * [JDBC](back-end/java/jdbc.md)
