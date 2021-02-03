@@ -25,7 +25,7 @@
     * [Date](back-end/java/servlet-web/date.md)
     * [Servlet Interface](back-end/java/servlet-web/servletinterface.md)
     * [Session機制](back-end/java/servlet-web/session.md)
-* [Oracle SQl](back-end/SQL/README.md)
+* [Oracle SQL](back-end/SQL/README.md)
   * [GROUP BY](back-end/SQL/groupBy.md)
 * [Tools]
   * [JUnit](Tools/Junit.md)
