@@ -117,12 +117,12 @@ Stack和Heap歸納如下：
 #### `substring()`範例
 
 ```java
-//回傳不包含參數本身的後面字元
+//回傳包含index本身的後面字元(index從0開始)
 "unhappy".substring(2) returns "happy"
 "Harbison".substring(3) returns "bison"
 "emptiness".substring(9) returns "" (an empty string)
 
-//回傳不包含第一個參數本身後面到包含第二個參數的字元
+//回傳包含第一個index本身後面到第二個index（不包含）的字元
 "hamburger".substring(3,8) returns "burge"
  "smiles".substring(0,5) returns "smile"
 ```
