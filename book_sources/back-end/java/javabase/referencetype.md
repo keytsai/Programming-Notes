@@ -114,6 +114,19 @@ Stack和Heap歸納如下：
 | `substring()`                     | 由字串內取出全部字串               |
 | `endsWith()`                      | 判斷字串結尾                       |
 
+#### `substring()`範例
+
+```java
+//回傳不包含參數本身的後面字元
+"unhappy".substring(2) returns "happy"
+"Harbison".substring(3) returns "bison"
+"emptiness".substring(9) returns "" (an empty string)
+
+//回傳不包含第一個參數本身後面到包含第二個參數的字元
+"hamburger".substring(3,8) returns "burge"
+ "smiles".substring(0,5) returns "smile"
+```
+
 ### StringBuilder
 
 ## 基本型別的包覆類別
