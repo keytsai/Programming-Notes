@@ -1,0 +1,905 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>SOLID設計原則 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-theme-comscore/test.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="design-pattern/" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                        <b>1.1.</b>
+                    
+                    簡介
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Back-end</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../java/">
+            
+                <a href="../java/">
+            
+                    
+                        <b>2.1.</b>
+                    
+                    Java
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../java/javabase/">
+            
+                <a href="../java/javabase/">
+            
+                    
+                        <b>2.1.1.</b>
+                    
+                    基礎Java
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1.1" data-path="../java/javabase/variable.html">
+            
+                <a href="../java/javabase/variable.html">
+            
+                    
+                        <b>2.1.1.1.</b>
+                    
+                    變數
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.1.2" data-path="../java/javabase/referencetype.html">
+            
+                <a href="../java/javabase/referencetype.html">
+            
+                    
+                        <b>2.1.1.2.</b>
+                    
+                    參考型別
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.1.3" data-path="../java/javabase/array.html">
+            
+                <a href="../java/javabase/array.html">
+            
+                    
+                        <b>2.1.1.3.</b>
+                    
+                    陣列
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.1.4" data-path="../java/javabase/Method.html">
+            
+                <a href="../java/javabase/Method.html">
+            
+                    
+                        <b>2.1.1.4.</b>
+                    
+                    方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.1.5" data-path="../java/javabase/OOP/">
+            
+                <a href="../java/javabase/OOP/">
+            
+                    
+                        <b>2.1.1.5.</b>
+                    
+                    繼承
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.1.6" data-path="../java/javabase/constructor.html">
+            
+                <a href="../java/javabase/constructor.html">
+            
+                    
+                        <b>2.1.1.6.</b>
+                    
+                    封裝及建構子
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.1.7" data-path="../java/javabase/object.html">
+            
+                <a href="../java/javabase/object.html">
+            
+                    
+                        <b>2.1.1.7.</b>
+                    
+                    Object的11個方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.1.8" >
+            
+                <span>
+            
+                    
+                        <b>2.1.1.8.</b>
+                    
+                    [Java 8]
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1.8.1" data-path="../java/javabase/Java8/Lambda.html">
+            
+                <a href="../java/javabase/Java8/Lambda.html">
+            
+                    
+                        <b>2.1.1.8.1.</b>
+                    
+                    Lambda
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.1.9" data-path="../java/javabase/collectionsapi.html">
+            
+                <a href="../java/javabase/collectionsapi.html">
+            
+                    
+                        <b>2.1.1.9.</b>
+                    
+                    collections API
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="../java/jdbc.html">
+            
+                <a href="../java/jdbc.html">
+            
+                    
+                        <b>2.1.2.</b>
+                    
+                    JDBC
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="../java/servlet-web/">
+            
+                <a href="../java/servlet-web/">
+            
+                    
+                        <b>2.1.3.</b>
+                    
+                    Servlet Web
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.3.1" data-path="../java/servlet-web/javabeans.html">
+            
+                <a href="../java/servlet-web/javabeans.html">
+            
+                    
+                        <b>2.1.3.1.</b>
+                    
+                    JavaBeans
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.2" data-path="../java/servlet-web/request-parameters.html">
+            
+                <a href="../java/servlet-web/request-parameters.html">
+            
+                    
+                        <b>2.1.3.2.</b>
+                    
+                    Request Parameters
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.3" data-path="../java/servlet-web/servletlifecycle.html">
+            
+                <a href="../java/servlet-web/servletlifecycle.html">
+            
+                    
+                        <b>2.1.3.3.</b>
+                    
+                    Servlet 生命週期
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.4" data-path="../java/servlet-web/webxml.html">
+            
+                <a href="../java/servlet-web/webxml.html">
+            
+                    
+                        <b>2.1.3.4.</b>
+                    
+                    web.xml部署檔
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.5" data-path="../java/servlet-web/synchronization.html">
+            
+                <a href="../java/servlet-web/synchronization.html">
+            
+                    
+                        <b>2.1.3.5.</b>
+                    
+                    同步化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.6" data-path="../java/servlet-web/reloading.html">
+            
+                <a href="../java/servlet-web/reloading.html">
+            
+                    
+                        <b>2.1.3.6.</b>
+                    
+                    Servlet重載入
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.7" data-path="../java/servlet-web/date.html">
+            
+                <a href="../java/servlet-web/date.html">
+            
+                    
+                        <b>2.1.3.7.</b>
+                    
+                    Date
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.8" data-path="../java/servlet-web/servletinterface.html">
+            
+                <a href="../java/servlet-web/servletinterface.html">
+            
+                    
+                        <b>2.1.3.8.</b>
+                    
+                    Servlet Interface
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.9" data-path="../java/servlet-web/session.html">
+            
+                <a href="../java/servlet-web/session.html">
+            
+                    
+                        <b>2.1.3.9.</b>
+                    
+                    Session機制
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../SQL/">
+            
+                <a href="../SQL/">
+            
+                    
+                        <b>2.2.</b>
+                    
+                    Oracle SQL
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="../SQL/groupBy.html">
+            
+                <a href="../SQL/groupBy.html">
+            
+                    
+                        <b>2.2.1.</b>
+                    
+                    GROUP BY
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" >
+            
+                <span>
+            
+                    
+                        <b>2.3.</b>
+                    
+                    [Tools]
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="../../Tools/Junit.html">
+            
+                <a href="../../Tools/Junit.html">
+            
+                    
+                        <b>2.3.1.</b>
+                    
+                    JUnit
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2" data-path="../../Tools/vim.html">
+            
+                <a href="../../Tools/vim.html">
+            
+                    
+                        <b>2.3.2.</b>
+                    
+                    Vim
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.3" data-path="../../Tools/Terminal.html">
+            
+                <a href="../../Tools/Terminal.html">
+            
+                    
+                        <b>2.3.3.</b>
+                    
+                    Linux指令
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="./">
+            
+                <a href="./">
+            
+                    
+                        <b>2.4.</b>
+                    
+                    Developing Solutions
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="2.4.1" data-path="solid-she-ji-yuan-ze.html">
+            
+                <a href="solid-she-ji-yuan-ze.html">
+            
+                    
+                        <b>2.4.1.</b>
+                    
+                    SOLID設計原則
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.2" data-path="design-pattern/">
+            
+                <a href="design-pattern/">
+            
+                    
+                        <b>2.4.2.</b>
+                    
+                    Design Pattern
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.4.2.1" data-path="design-pattern/ce-lve-mo-shi.html">
+            
+                <a href="design-pattern/ce-lve-mo-shi.html">
+            
+                    
+                        <b>2.4.2.1.</b>
+                    
+                    策略模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.3" data-path="uml.html">
+            
+                <a href="uml.html">
+            
+                    
+                        <b>2.4.3.</b>
+                    
+                    UML
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.4" data-path="agile/">
+            
+                <a href="agile/">
+            
+                    
+                        <b>2.4.4.</b>
+                    
+                    Agile
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.4.4.1" data-path="agile/user-story.html">
+            
+                <a href="agile/user-story.html">
+            
+                    
+                        <b>2.4.4.1.</b>
+                    
+                    User Story
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Front-end</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../../front-end/html/">
+            
+                <a href="../../front-end/html/">
+            
+                    
+                        <b>3.1.</b>
+                    
+                    HTML
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.1" data-path="../../front-end/html/form.html">
+            
+                <a href="../../front-end/html/form.html">
+            
+                    
+                        <b>3.1.1.</b>
+                    
+                    form
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../../front-end/css.html">
+            
+                <a href="../../front-end/css.html">
+            
+                    
+                        <b>3.2.</b>
+                    
+                    CSS
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >SOLID設計原則</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="solid&#x8A2D;&#x8A08;&#x539F;&#x5247;">SOLID&#x8A2D;&#x8A08;&#x539F;&#x5247;</h1>
+<h2 id="&#x55AE;&#x4E00;&#x8077;&#x8CAC;&#x539F;&#x5247;single-responsibility-principle-srp">&#x55AE;&#x4E00;&#x8077;&#x8CAC;&#x539F;&#x5247;(Single responsibility principle, SRP)</h2>
+<blockquote>
+<p>&#x4E00;&#x500B;&#x6A21;&#x7D44;&#x61C9;&#x8A72;&#x53EA;&#x5C0D;&#x552F;&#x4E00;&#x7684;&#x4E00;&#x500B;&#x89D2;&#x8272;&#x8CA0;&#x8CAC;&#x3002;</p>
+</blockquote>
+<h2 id="&#x958B;&#x653E;&#x5C01;&#x9589;&#x539F;&#x5247;open-close-principle-ocp">&#x958B;&#x653E;&#x5C01;&#x9589;&#x539F;&#x5247;(Open-Close principle, OCP)</h2>
+<blockquote>
+<p>&#x4E00;&#x500B;&#x8EDF;&#x9AD4;&#x88FD;&#x54C1;&#x61C9;&#x8A72;&#x5C0D;&#x65BC;&#x64F4;&#x5C55;&#x662F;&#x958B;&#x653E;&#x7684;&#xFF0C;&#x4F46;&#x5C0D;&#x65BC;&#x4FEE;&#x6539;&#x662F;&#x5C01;&#x9589;&#x7684;&#x3002;</p>
+</blockquote>
+<h2 id="&#x91CC;&#x6C0F;&#x66FF;&#x63DB;&#x539F;&#x5247;liskov-substitution-principle-lsp">&#x91CC;&#x6C0F;&#x66FF;&#x63DB;&#x539F;&#x5247;(Liskov substitution principle, LSP)</h2>
+<blockquote>
+<p>&#x5EFA;&#x7F6E;&#x8EDF;&#x9AD4;&#x7CFB;&#x7D71;&#x5FC5;&#x9808;&#x4F86;&#x81EA;&#x65BC;&#x53EF;&#x4E92;&#x63DB;&#x7684;&#x90E8;&#x5206;&#xFF0C;&#x9019;&#x4E9B;&#x90E8;&#x5206;&#x5FC5;&#x9808;&#x9075;&#x5B88;&#x5141;&#x8A31;&#x9019;&#x4E9B;&#x90E8;&#x5206;&#x76F8;&#x4E92;&#x66FF;&#x63DB;&#x7684;&#x5951;&#x7D04;&#x3002;</p>
+</blockquote>
+<h2 id="&#x4ECB;&#x9762;&#x9694;&#x96E2;&#x539F;&#x5247;interface-segregation-principle-isp">&#x4ECB;&#x9762;&#x9694;&#x96E2;&#x539F;&#x5247;(Interface segregation principle, ISP)</h2>
+<blockquote>
+<p>&#x6B64;&#x539F;&#x5247;&#x5EFA;&#x8B70;&#x8EDF;&#x9AD4;&#x8A2D;&#x8A08;&#x8005;&#x907F;&#x514D;&#x4F9D;&#x8CF4;&#x65BC;&#x4ED6;&#x5011;&#x4E0D;&#x4F7F;&#x7528;&#x7684;&#x6771;&#x897F;&#x3002;</p>
+</blockquote>
+<h2 id="&#x4F9D;&#x8CF4;&#x53CD;&#x5411;&#x539F;&#x5247;dependency-inversion-principle-dip">&#x4F9D;&#x8CF4;&#x53CD;&#x5411;&#x539F;&#x5247;(Dependency inversion principle, DIP)</h2>
+<blockquote>
+<p>&#x5BE6;&#x4F5C;&#x7B56;&#x7565;&#x7684;&#x9AD8;&#x5C64;&#x7D1A;&#x7A0B;&#x5F0F;&#x78BC;&#x4E0D;&#x61C9;&#x8A72;&#x4F9D;&#x8CF4;&#x65BC;&#x5BE6;&#x4F5C;&#x7D30;&#x7BC0;&#x7684;&#x4F4E;&#x5C64;&#x7D1A;&#x7A0B;&#x5F0F;&#x78BC;&#x3002;&#x76F8;&#x53CD;&#x5730;&#xFF0C;&#x7D30;&#x7BC0;&#x61C9;&#x8A72;&#x4F9D;&#x8CF4;&#x65BC;&#x7B56;&#x7565;&#x3002;</p>
+</blockquote>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: Developing Solutions">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="design-pattern/" class="navigation navigation-next " aria-label="Next page: Design Pattern">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"SOLID設計原則","level":"2.4.1","depth":2,"next":{"title":"Design Pattern","level":"2.4.2","depth":2,"path":"back-end/developing-solutions/design-pattern/README.md","ref":"back-end/developing-solutions/design-pattern/README.md","articles":[{"title":"策略模式","level":"2.4.2.1","depth":3,"path":"back-end/developing-solutions/design-pattern/ce-lve-mo-shi.md","ref":"back-end/developing-solutions/design-pattern/ce-lve-mo-shi.md","articles":[]}]},"previous":{"title":"Developing Solutions","level":"2.4","depth":1,"path":"back-end/developing-solutions/README.md","ref":"back-end/developing-solutions/README.md","articles":[{"title":"SOLID設計原則","level":"2.4.1","depth":2,"path":"back-end/developing-solutions/solid-she-ji-yuan-ze.md","ref":"back-end/developing-solutions/solid-she-ji-yuan-ze.md","articles":[]},{"title":"Design Pattern","level":"2.4.2","depth":2,"path":"back-end/developing-solutions/design-pattern/README.md","ref":"back-end/developing-solutions/design-pattern/README.md","articles":[{"title":"策略模式","level":"2.4.2.1","depth":3,"path":"back-end/developing-solutions/design-pattern/ce-lve-mo-shi.md","ref":"back-end/developing-solutions/design-pattern/ce-lve-mo-shi.md","articles":[]}]},{"title":"UML","level":"2.4.3","depth":2,"path":"back-end/developing-solutions/uml.md","ref":"back-end/developing-solutions/uml.md","articles":[]},{"title":"Agile","level":"2.4.4","depth":2,"path":"back-end/developing-solutions/agile/README.md","ref":"back-end/developing-solutions/agile/README.md","articles":[{"title":"User Story","level":"2.4.4.1","depth":3,"path":"back-end/developing-solutions/agile/user-story.md","ref":"back-end/developing-solutions/agile/user-story.md","articles":[]}]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["code","theme-comscore","-lunr","-search","search-pro","-sharing"],"pluginsConfig":{"fontSettings":{"theme":"night","family":"sans"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"code":{"copyButtons":true},"search-pro":{},"highlight":{},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-comscore":{}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"mobi":"/mobile.css"}},"file":{"path":"back-end/developing-solutions/solid-she-ji-yuan-ze.md","mtime":"2021-02-08T10:59:39.537Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-02-08T11:00:13.401Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-theme-comscore/test.js"></script>
+        
+    
+
+    </body>
+</html>
+
