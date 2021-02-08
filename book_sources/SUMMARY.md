@@ -13,6 +13,8 @@
     * [繼承](back-end/java/javabase/OOP/README.md)
     * [封裝及建構子](back-end/java/javabase/constructor.md)
     * [Object的11個方法](back-end/java/javabase/object.md)
+    * [Java 8]
+      * [Lambda](back-end/java/javabase/Java8/Lambda.md)
     * [collections API](back-end/java/javabase/collectionsapi.md)
   * [JDBC](back-end/java/jdbc.md)
   * [Servlet Web](back-end/java/servlet-web/README.md)

@@ -40,3 +40,7 @@ GROUP BY DNAME;
 SELECT DNAME, COUNT(ENAME) 部門人數 FROM EMP2 E JOIN DEPT2 D ON E.DEPTNO = D.DEPTNO
 GROUP BY DNAME;
 ```
+
+## References
+
+[SQL Group By](https://www.1keydata.com/tw/sql/sqlgroupby.html)

@@ -1,4 +1,4 @@
-# Array
+# Array 陣列
 
 ## 一維陣列與二維陣列
 
@@ -54,6 +54,6 @@ type [] array_identifier = {成員以","區隔};
 ### ArrayList類別簡介
 
 1. 只存放參考型別的物件，不接受基本型別；但可以改用基本型別的包覆類別
-2. 有許多方法可以管理成員物件：add()、get()、remove()、indexOf()等
+2. 有許多方法可以管理成員物件：`add()`、`get()`、`remove()`、`indexOf()`等
 3. 建構ArrayList物件時不需要設定長度大小，當需要加入更多成員物件時，將自動成長
 4. 在建構ArrayList物件時可設定initial capacity，但不強制
